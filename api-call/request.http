@@ -1,0 +1,15 @@
+###
+
+POST http://localhost:9010/books
+content-type: application/json
+
+{
+    "name": "sample",
+    "author": "Tadeu tupiz",
+    "publication": "hahaha "
+}
+
+###
+
+GET http://localhost:9010/books
+
